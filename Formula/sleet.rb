@@ -5,7 +5,7 @@ class Sleet < Formula
   homepage "https://github.com/kimura-hytaae/sleet"
   url "https://github.com/kimura-hytaae/sleet/releases/download/v#{VERSION}/sleet-#{VERSION}_darwin_amd64.tar.gz" 
   version VERSION
-  sha256 "6df860115d0e4e11d90151d0cc5b4a05dad344a484316b478c28426b016dd531"
+  sha256 "e51785a293f7867252fe5edc2543bcca96a7a1816b00567f04189bd746b28a71"
   license "MIT"
   option "without-completions", "Disable bash completions"
   depends_on "bash-completion@2" => :optional
